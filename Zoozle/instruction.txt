@@ -1,0 +1,46 @@
+This is the instruction of Zoozle Library Crate.
+If you notice anything wrong , please let me know by LmfZoozle@gmail.com
+Also , this Library is open source and free.
+If you are a Linux user , you can use this as you like !
+
+
+
+First, check whether you succeeded in installing this crate or not.
+
+cargo.toml ; add below description.
+//////////////////////////////////////////////////////////////////////////////
+[dependencies]
+Zoozle={path = "WHERE ZOOZLE LIBRARY IS "}
+/////////////////////////////////////////////////////////////////////////////
+For example , in case of the path of zoozle library is
+/home/zoozle/Code/Rust/Library/ ,
+add 
+Zoozle={path = "/home/zoozle/Code/Rust/Library/Zoozle"}
+
+then, let's write a main.rs.
+/////////////////////////////////////////////////////////////////////////////
+use Zoozle;
+
+fn main(){
+    Zoozle::test();"
+}
+////////////////////////////////////////////////////////////////////////////
+Ok. It's time to Execute this.
+
+$ cargo run
+
+you will see , 
+
+"From Zoozle_Library
+Nice to meet you !!"
+
+if you can see this, you are ready to use this crate.
+
+
+Second , Simple explanation of this crate.
+This crate is mainly divided into three;
+Zoozle::oft  //often used.
+Zoozle::ust  //unstable. You will take a risk.
+Zoozle::csv  //For .csv files.
+
+Checking each file , you can learn how to use that.
